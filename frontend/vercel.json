@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "public": ".",
+  "public": true,
   "rewrites": [
     {
       "source": "/(.*)",
@@ -8,4 +8,6 @@
     }
   ]
 }
+
+
 
