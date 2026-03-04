@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: fraudix-backend
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: MONGO_URI
+        scope: all
+        sync: false
