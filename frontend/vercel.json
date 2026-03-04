@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "fraudix.html",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "fraudix.html"
+    }
+  ],
+  "env": {
+    "REACT_APP_API_URL": "@fraudix_backend_url"
+  }
+}

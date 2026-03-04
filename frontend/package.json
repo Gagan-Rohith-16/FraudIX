@@ -1,0 +1,9 @@
+{
+  "name": "fraudix-frontend",
+  "version": "1.0.0",
+  "description": "FRAUDIX - Real-Time Fraud Detection Frontend",
+  "scripts": {
+    "start": "npx http-server . -p 3000 -c-1",
+    "build": "echo 'Static site ready'"
+  }
+}
